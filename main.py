@@ -36,7 +36,7 @@ usar_security = input("¿Quieres análisis de seguridad? (S/n): ") or "s"
 steps_security = ''
 security_pkg = ''
 if usar_security.lower() == 's':
-    security = input("Herramienta  análisis de seguridad 'bandit'): ") or "bandit"
+    security = input("Herramienta análisis seguridad 'bandit'): ") or "bandit"
     security_pkg = security.split()[0]
     cmd_security = input(f" seguridad '{security} .'): ") or f"{security} ."
     steps_security = f"""

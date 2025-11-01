@@ -1,3 +1,4 @@
+#chivas contra pachuca mañana a las 7 o algo asi
 import os
 from pathlib import Path
 
